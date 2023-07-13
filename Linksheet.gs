@@ -5,7 +5,7 @@ function myFunction() {
 //  use url and sheet name to return ws
 function linkws(url,sheetname){
 var ss = SpreadsheetApp.openByUrl(url) ;
-var ws = ss.getSheetByName(sheetname);
+var ws = ss.getSheetByName(sheetname);  //use correct getSheetByName()
 
 return ws ;
 
