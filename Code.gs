@@ -27,6 +27,14 @@ var ss = SpreadsheetApp.openByUrl(url);
 var ws =ss.getSheetByName('Sheet1');
 ws.appendRow(['qqq',555555,'999999']); // array of columns 
 
+}
+
+
+
+function testurl(){
+var   ws = linkws(url1,"Sheet1");
+  ws.appendRow(['qqq',555555,'999999']); // array of columns   
+  
 
 
 }
