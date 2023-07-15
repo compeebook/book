@@ -5,3 +5,7 @@ function linkWorkSheet(url,sheetName) {
 return  spreadsheets.openByUrl(url).getSheetByName(sheetName) ; 
 
 }
+function OpenDoc(){
+ // 
+
+}
